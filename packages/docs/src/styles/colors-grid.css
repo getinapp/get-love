@@ -1,0 +1,14 @@
+.color-grid {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+
+.color-grid p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-grid:not(:last-child) {
+  margin-bottom: 1rem;
+}

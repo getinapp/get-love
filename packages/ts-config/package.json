@@ -1,0 +1,11 @@
+{
+  "name": "@getlove/ts-config",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Typescript setup",
+  "author": {
+    "name": "maganezf",
+    "url": "https://github.com/maganezf"
+  },
+  "license": "MIT"
+}
