@@ -17,4 +17,8 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') config.base = '/get-love/';
+    return config;
+  },
 };
