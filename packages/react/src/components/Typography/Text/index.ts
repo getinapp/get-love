@@ -16,7 +16,7 @@ const defaultStyles = {
 };
 
 export const Text = styled('p', {
-  color: '$black-pure',
+  color: '$mono-low-pure',
   lineHeight: '$md',
 
   variants: {

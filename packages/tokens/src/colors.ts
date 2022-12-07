@@ -53,6 +53,4 @@ export const colors = {
   'feedback-error-light': '#E87E5B',
   'feedback-error-dark': '#B85543',
   'feedback-error-darkest': '#97483D',
-
-  'black-pure': '#000000',
 } as const;
