@@ -5,7 +5,7 @@ export const Title = styled('h2', {
   fontStyle: '$normal',
 
   fontWeight: '$bold',
-  color: '$black-pure',
+  color: '$mono-low-pure',
 
   variants: {
     size: {
