@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.1.3
+
+### Patch Changes
+
+- fix(textinput): mask property default value - empty string
+
 ## 1.1.2
 
 ### Patch Changes
