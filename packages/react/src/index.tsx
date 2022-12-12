@@ -16,6 +16,7 @@ export * from './components/Form/Select';
 export * from './components/Form/Switch';
 export * from './components/Form/Textarea';
 export * from './components/Form/TextInput';
+export * from './components/Form/TextInputMask';
 export * from './components/General/Accordion';
 export * from './components/General/Alert';
 export * from './components/General/Avatar';
