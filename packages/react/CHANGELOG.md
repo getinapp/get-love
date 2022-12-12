@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.2.0
+
+### Minor Changes
+
+- feat(textinputmask): added the component for using with masks
+
 ## 1.1.3
 
 ### Patch Changes

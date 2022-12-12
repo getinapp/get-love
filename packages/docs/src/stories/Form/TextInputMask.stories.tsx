@@ -1,5 +1,5 @@
-import type { TextInputProps } from '@getlove/react';
-import { TextInput } from '@getlove/react';
+import type { TextInputMaskProps } from '@getlove/react';
+import { TextInputMask } from '@getlove/react';
 import { colors } from '@getlove/tokens';
 import type { Meta, StoryObj } from '@storybook/react';
 
@@ -7,18 +7,19 @@ const variants = {
   parentBgColor: [
     ...Object.keys(colors).map(colorKey => `$${colorKey}`),
     'transparent',
-  ] as unknown as TextInputProps['parentBgColor'],
+  ] as unknown as TextInputMaskProps['parentBgColor'],
 };
 
 export default {
-  title: 'Components/Form/TextInput',
-  component: TextInput,
+  title: 'Components/Form/TextInputMask',
+  component: TextInputMask,
   args: {
     label: 'Label',
     required: false,
     error: false,
     disabled: false,
     fullWidth: false,
+    mask: '',
   },
   argTypes: {
     parentBgColor: {
@@ -52,35 +53,47 @@ export default {
     docs: {
       description: {
         component:
-          'This is the TextInput component, it shows an element that represents a one-line plain-text editing control.',
+          'This is the TextInputMask component, it shows an element that represents a one-line plain-text editing control.',
       },
     },
   },
-} as Meta<TextInputProps>;
+} as Meta<TextInputMaskProps>;
 
-export const Primary: StoryObj<TextInputProps> = {};
-
-export const WithPlaceholder: StoryObj<TextInputProps> = {
+export const CellPhone: StoryObj<TextInputMaskProps> = {
   args: {
-    placeholder: 'Placeholder',
+    mask: '(00) 0 0000-0000',
+    label: 'Celular',
+    helper: 'Digite seu celular',
+    required: true,
   },
 };
 
-export const WithHelper: StoryObj<TextInputProps> = {
+export const Birthday: StoryObj<TextInputMaskProps> = {
   args: {
-    label: 'Label',
-    helper: 'Digite seu texto de ajuda aqui',
+    mask: '00/00/0000',
+    label: 'Data de nascimento',
+    helper: 'Digite sua data de nascimento',
+    required: true,
   },
 };
 
-export const Error: StoryObj<TextInputProps> = {
+export const CPF: StoryObj<TextInputMaskProps> = {
+  args: {
+    mask: '000.000.000-00',
+    label: 'CPF',
+    helper: 'Digite seu CPF',
+    required: true,
+  },
+};
+
+export const Error: StoryObj<TextInputMaskProps> = {
   args: {
     required: true,
     error: true,
   },
 };
 
-export const Disabled: StoryObj<TextInputProps> = {
+export const Disabled: StoryObj<TextInputMaskProps> = {
   args: {
     disabled: true,
   },
