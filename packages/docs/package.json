@@ -34,8 +34,8 @@
     "react-dom": "^18.2.0"
   },
   "scripts": {
-    "dev": "start-storybook -p 6006",
-    "build": "build-storybook",
+    "dev": "start-storybook -s ./public -p 6006",
+    "build": "build-storybook -s ./public",
     "deploy-storybook": "storybook-to-ghpages"
   }
 }
