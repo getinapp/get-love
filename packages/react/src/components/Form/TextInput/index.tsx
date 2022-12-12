@@ -21,6 +21,7 @@ export type TextInputProps = HTMLInputProps &
     helper?: string;
     error?: boolean;
     fullWidth?: boolean;
+    mask?: ComponentProps<typeof S.Input>['mask'];
   };
 
 export const TextInput = ({
@@ -29,6 +30,7 @@ export const TextInput = ({
   helper,
   error = false,
   fullWidth = false,
+  mask,
   ...props
 }: TextInputProps) => {
   const id = label ? label.toLowerCase().replaceAll(' ', '-') : '';
@@ -87,6 +89,7 @@ export const TextInput = ({
           onFocus={handleOnFocus}
           onBlur={handleOnBlur}
           css={{ backgroundColor: parentBgColor }}
+          mask={mask as any} // eslint-disable-line @typescript-eslint/no-explicit-any
           {...props}
         />
       </S.InputWrapper>
