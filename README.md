@@ -42,13 +42,13 @@ This project was made using the follow technologies:
 Have sure that you have installed nodejs on your machine
 
 # Install dependencies
-$ npm i or yarn
+$ yarn
 
 # Run application on development:
-$ npm run dev or yarn dev
+$ yarn dev
 
 # Run build:
-$ npm run build or yarn build
+$ yarn build
 ```
 
 ## :construction_worker: How to Publish
