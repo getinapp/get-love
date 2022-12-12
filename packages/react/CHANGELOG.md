@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.1.1
+
+### Patch Changes
+
+- fix(textinput): type of mask propriety
+
 ## 1.1.0
 
 ### Minor Changes
