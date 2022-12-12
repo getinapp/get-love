@@ -19,7 +19,7 @@ export default {
     error: false,
     disabled: false,
     fullWidth: false,
-    mask: undefined,
+    mask: '',
   },
   argTypes: {
     parentBgColor: {

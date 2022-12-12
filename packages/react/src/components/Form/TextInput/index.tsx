@@ -31,7 +31,7 @@ export const TextInput = ({
   helper,
   error = false,
   fullWidth = false,
-  mask = undefined as any,
+  mask = '',
   ...props
 }: TextInputProps) => {
   const id = label ? label.toLowerCase().replaceAll(' ', '-') : '';
