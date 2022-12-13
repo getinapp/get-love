@@ -96,6 +96,11 @@ export const Indicator = styled(RadioGroup.Indicator, {
         backgroundColor: '$brand-primary-pure',
       },
     },
+    disabled: {
+      true: {
+        backgroundColor: '$mono-high-light',
+      },
+    },
   },
 });
 

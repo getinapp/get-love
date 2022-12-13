@@ -1,6 +1,5 @@
 import { ComponentProps, useState } from 'react';
 
-import type { Colors } from '../../../@types';
 import * as S from './styles';
 
 export type CardItem = {
@@ -9,21 +8,19 @@ export type CardItem = {
 };
 
 export interface CardOptionsProps extends ComponentProps<typeof S.Wrapper> {
-  parentBgColor?: Colors | 'transparent';
   items: CardItem[];
 }
 
-export const CardOptions = ({
-  parentBgColor = '$mono-high-lightest',
-  items,
-  ...props
-}: CardOptionsProps) => {
+export const CardOptions = ({ items, ...props }: CardOptionsProps) => {
   const [value, setValue] = useState<string | undefined>(
     props.defaultValue || props.value
   );
 
   const handleSelectedValue = (newValue: string) => {
-    if (!props.disabled && newValue !== value) setValue(newValue);
+    if (!props.disabled && newValue !== value) {
+      if (props.onValueChange) props.onValueChange(newValue);
+      setValue(newValue);
+    }
   };
 
   return (
@@ -31,18 +28,20 @@ export const CardOptions = ({
       {items.map(item => (
         <S.ItemWrapper
           key={item.title}
-          checked={item.title === value}
           disabled={!!props.disabled}
           onClick={() => handleSelectedValue(item.title)}
-          css={{ backgroundColor: parentBgColor }}
         >
           <S.Item
             id={item.title}
             value={item.title}
             checked={item.title === value}
             disabled={!!props.disabled}
+            onClick={() => handleSelectedValue(item.title)}
           >
-            <S.Indicator checked={item.title === value} />
+            <S.Indicator
+              checked={item.title === value}
+              disabled={!!props.disabled}
+            />
           </S.Item>
 
           <S.InfoWrapper disabled={!!props.disabled}>
