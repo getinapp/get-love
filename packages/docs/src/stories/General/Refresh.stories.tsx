@@ -28,7 +28,7 @@ export default {
   },
 } as Meta<RefreshProps>;
 
-export const Primary: StoryObj<RefreshProps> = {};
+export const NotLoaded: StoryObj<RefreshProps> = {};
 
 export const Loading: StoryObj<RefreshProps> = {
   args: {

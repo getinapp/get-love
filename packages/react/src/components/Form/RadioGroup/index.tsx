@@ -22,13 +22,13 @@ export const RadioGroup = ({
   );
 
   const handleSelectedValue = (newValue: string) => {
-    if (newValue !== value) setValue(newValue);
+    if (!props.disabled && newValue !== value) setValue(newValue);
   };
 
   return (
     <S.Wrapper {...props} value={value}>
       {items.map(item => (
-        <S.ItemWrapper key={item.value} disabled={props.disabled}>
+        <S.ItemWrapper key={item.value} disabled={!!props.disabled}>
           {labelDirection === 'left' && (
             <S.Label
               style='base-paragraph-default'
@@ -44,12 +44,12 @@ export const RadioGroup = ({
             id={item.label}
             value={item.value}
             checked={item.value === value}
-            disabled={props.disabled}
+            disabled={!!props.disabled}
             onClick={() => handleSelectedValue(item.value)}
           >
             <S.Indicator
               checked={item.value === value}
-              disabled={props.disabled}
+              disabled={!!props.disabled}
             />
           </S.Item>
 
@@ -58,7 +58,7 @@ export const RadioGroup = ({
               style='base-paragraph-default'
               as='label'
               htmlFor={item.label}
-              disabled={props.disabled}
+              disabled={!!props.disabled}
             >
               {item.label}
             </S.Label>

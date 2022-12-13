@@ -1,6 +1,7 @@
 import { colors } from '@getlove/tokens';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
+import type { CheckedState } from '@radix-ui/react-checkbox';
 import { ComponentProps, useEffect, useState } from 'react';
 
 import * as S from './styles';
@@ -34,6 +35,11 @@ export const ButtonRoundCheck = ({
     setChecked(!!props.checked);
   }, [props.checked]);
 
+  const onCheckedChange = (checked: CheckedState) => {
+    if (props.onCheckedChange) props.onCheckedChange(checked);
+    setChecked(value => !value);
+  };
+
   return (
     <S.Wrapper fullWidth={fullWidth} disabled={props.disabled}>
       {labelDirection === 'left' && labelElement}
@@ -41,7 +47,7 @@ export const ButtonRoundCheck = ({
         id={label}
         {...props}
         checked={checked}
-        onCheckedChange={() => setChecked(value => !value)}
+        onCheckedChange={onCheckedChange}
       >
         {checked ? (
           <S.Indicator asChild>

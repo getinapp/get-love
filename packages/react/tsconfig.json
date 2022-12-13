@@ -1,4 +1,4 @@
 {
   "extends": "@getlove/ts-config/react.json",
-  "include": ["src", "src/components/Illustrations/SocialAvatars/.tsx"]
+  "include": ["src"]
 }

@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.2.1
+
+### Patch Changes
+
+- fix(cardoptions, radiogroup and buttonroundcheck): flow to selected value - onChange events are working perfectly
+
 ## 1.2.0
 
 ### Minor Changes
