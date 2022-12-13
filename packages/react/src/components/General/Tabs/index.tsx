@@ -29,6 +29,7 @@ export const Tabs = ({ items, ...props }: TabsProps) => {
       <S.List aria-label='Tab content list'>
         {items.map(item => (
           <S.Trigger
+            key={item.label}
             disabled={!!item.disabled}
             value={item.label.toLowerCase().replaceAll(' ', '-')}
             widthLevel={widthLevel}
@@ -39,7 +40,10 @@ export const Tabs = ({ items, ...props }: TabsProps) => {
       </S.List>
 
       {items.map(item => (
-        <S.Content value={item.label.toLowerCase().replaceAll(' ', '-')}>
+        <S.Content
+          key={item.label}
+          value={item.label.toLowerCase().replaceAll(' ', '-')}
+        >
           {item.content}
         </S.Content>
       ))}

@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.2.2
+
+### Patch Changes
+
+- fix(buttonsgroup, accordion and tabs): key prop
+
 ## 1.2.1
 
 ### Patch Changes

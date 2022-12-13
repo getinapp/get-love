@@ -30,6 +30,7 @@ export const ButtonsGroup = ({ items, ...props }: ButtonsGroupProps) => {
     <S.Root aria-label='buttons-group' {...props}>
       {items.map(item => (
         <S.Item
+          key={item.label}
           value={String(item.value)}
           aria-label={item.label}
           widthLevel={widthLevel}

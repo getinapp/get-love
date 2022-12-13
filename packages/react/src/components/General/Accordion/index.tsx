@@ -24,7 +24,7 @@ export const Accordion = ({
   return (
     <S.Wrapper {...props} fullWidth={fullWidth}>
       {items.map(item => (
-        <S.Item value={item.label} disabled={!!item.disabled}>
+        <S.Item key={item.label} value={item.label} disabled={!!item.disabled}>
           <AccordionTrigger>
             <Text as='h2' style='base-paragraph-default'>
               {item.label}
@@ -32,7 +32,9 @@ export const Accordion = ({
           </AccordionTrigger>
           <AccordionContent>
             {item.texts.map(text => (
-              <Text style='base-paragraph-default'>{text}</Text>
+              <Text key={text} style='base-paragraph-default'>
+                {text}
+              </Text>
             ))}
           </AccordionContent>
         </S.Item>
