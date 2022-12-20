@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@getlove/docs"]
+  "ignore": ["@getlove/docs", "@getlove/components-test"]
 }
