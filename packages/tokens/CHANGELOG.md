@@ -1,5 +1,11 @@
 # @getlove/tokens
 
+## 1.1.2
+
+### Patch Changes
+
+- fix(webpack.config.js): entry folder
+
 ## 1.1.1
 
 ### Patch Changes

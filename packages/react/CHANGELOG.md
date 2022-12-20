@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.2.4
+
+### Patch Changes
+
+- fix(webpack.config.js): entry folder
+
 ## 1.2.3
 
 ### Patch Changes
