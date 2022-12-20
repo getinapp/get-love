@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.2.3
+
+### Patch Changes
+
+- fix(webpack.config.js): build loader - trying to fix the react build error that happens when using the components in any another repo
+
 ## 1.2.2
 
 ### Patch Changes
