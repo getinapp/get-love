@@ -1,6 +1,6 @@
 {
   "name": "@getlove/react",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Components built in react",
   "author": {
     "name": "maganezf",
@@ -42,5 +42,9 @@
     "@radix-ui/react-toggle-group": "^1.0.1",
     "@stitches/react": "^1.2.8",
     "react-imask": "^6.4.3"
+  },
+  "peerDependencies": {
+    "@mui/icons-material": "^5.10.15",
+    "@mui/material": "^5.10.15"
   }
 }

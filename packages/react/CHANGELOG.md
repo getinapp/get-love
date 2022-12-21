@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.2.5
+
+### Patch Changes
+
+- build(react peerdependencies): adding react components peerDependencies
+
 ## 1.2.4
 
 ### Patch Changes
