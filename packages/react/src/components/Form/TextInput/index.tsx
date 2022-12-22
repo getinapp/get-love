@@ -1,4 +1,5 @@
-import { ComponentProps, FocusEvent, useEffect, useState } from 'react';
+import type { ComponentProps, FocusEvent } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import type { Colors } from '../../../@types';
 import * as S from './styles';

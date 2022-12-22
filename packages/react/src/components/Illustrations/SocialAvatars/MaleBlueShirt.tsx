@@ -1,5 +1,7 @@
+import React from 'react';
+
 import { Wrapper } from '../styles';
-// MaleBlueShirt
+
 export const MaleBlueShirt = () => (
   <Wrapper>
     <svg

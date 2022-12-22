@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { AmericanExpress } from './AmericanExpress';
 import { Mastercard } from './Mastercard';
 import { Visa } from './Visa';

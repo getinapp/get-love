@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.2.7
+
+### Patch Changes
+
+- build(tsconfig): jsx compilerOptions updated - using the jsx prop with the value "react"
+
 ## 1.2.6
 
 ### Patch Changes

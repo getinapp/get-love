@@ -1,6 +1,7 @@
 import CachedOutlinedIcon from '@mui/icons-material/CachedOutlined';
 import type { VariantProps } from '@stitches/react';
 import type { ComponentProps, ReactNode } from 'react';
+import React from 'react';
 
 import * as S from './styles';
 

@@ -1,4 +1,5 @@
 import { colors } from '@getlove/tokens';
+import React from 'react';
 
 import { Wrapper } from '../Illustrations/styles';
 

@@ -1,7 +1,8 @@
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import * as MyDialog from '@radix-ui/react-dialog';
 import { Property } from '@stitches/react/types/css';
-import { ComponentProps, ReactNode, useState } from 'react';
+import type { ComponentProps, ReactNode } from 'react';
+import React, { useState } from 'react';
 
 import { Heading } from '../../Typography/Heading';
 import { Text } from '../../Typography/Text';

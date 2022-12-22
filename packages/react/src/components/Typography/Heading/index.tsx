@@ -1,5 +1,6 @@
 import type { VariantProps } from '@stitches/react';
 import type { ReactNode } from 'react';
+import React from 'react';
 
 import { MyComponentProps } from '../../../@types';
 import * as S from './styles';

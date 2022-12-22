@@ -1,4 +1,5 @@
-import { ComponentProps, MouseEvent, useEffect, useState } from 'react';
+import type { ComponentProps, MouseEvent } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import * as S from './styles';
 

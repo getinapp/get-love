@@ -1,5 +1,11 @@
 # @getlove/tokens
 
+## 1.1.3
+
+### Patch Changes
+
+- build(tsconfig): jsx compilerOptions updated - using the jsx prop with the value "react"
+
 ## 1.1.2
 
 ### Patch Changes

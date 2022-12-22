@@ -1,4 +1,5 @@
 {
   "extends": "@getlove/ts-config/react.json",
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["src/**/*.test.tsx", "src/**/*.stories.tsx"]
 }

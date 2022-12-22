@@ -1,4 +1,5 @@
-import { ComponentProps } from 'react';
+import type { ComponentProps } from 'react';
+import React from 'react';
 
 import { Text } from '../../Typography/Text';
 import { AccordionContent } from './AccordionContent';
