@@ -1,7 +1,7 @@
 import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 import * as MySelect from '@radix-ui/react-select';
 import type { ComponentProps } from 'react';
-import React, { forwardRef } from 'react';
+import { forwardRef } from 'react';
 
 import * as S from './styles';
 

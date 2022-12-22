@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Error } from './Error';
 import { Success } from './Success';
 import { Warning } from './Warning';

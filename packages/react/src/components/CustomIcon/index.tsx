@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { DiaryFree } from './DiaryFree';
 import { GlutenFree } from './GlutenFree';
 import { Kosher } from './Kosher';

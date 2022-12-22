@@ -1,7 +1,6 @@
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import type { VariantProps } from '@stitches/react';
 import type { ComponentProps, ReactNode } from 'react';
-import React from 'react';
 
 import { Heading } from '../../Typography/Heading';
 import { Text } from '../../Typography/Text';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { FemaleBlackHair } from './FemaleBlackHair';
 import { FemaleBlondeHair } from './FemaleBlondeHair';
 import { FemaleBlueShirt } from './FemaleBlueShirt';

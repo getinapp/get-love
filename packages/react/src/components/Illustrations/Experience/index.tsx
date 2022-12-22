@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { EatingPrimary } from './EatingPrimary';
 import { EatingSecondary } from './EatingSecondary';
 import { EatingWhite } from './EatingWhite';

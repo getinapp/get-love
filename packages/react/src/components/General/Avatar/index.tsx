@@ -1,6 +1,5 @@
 import type { VariantProps } from '@stitches/react';
 import type { ComponentProps } from 'react';
-import React from 'react';
 
 import * as S from './styles';
 

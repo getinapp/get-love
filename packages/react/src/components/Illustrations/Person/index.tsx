@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { BlueShirt } from './BlueShirt';
 import { RedDress } from './RedDress';
 import { RedShirt } from './RedShirt';

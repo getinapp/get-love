@@ -1,7 +1,7 @@
 import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
 import * as MySelect from '@radix-ui/react-select';
 import type { ComponentProps, FocusEvent } from 'react';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import type { Colors } from '../../../@types';
 import { ButtonSelectItem } from './ButtonSelectItem';
