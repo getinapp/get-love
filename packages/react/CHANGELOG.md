@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.2.8
+
+### Patch Changes
+
+- build(tsconfig and components peerdependencies): jsx compilerOptions and react peerDependencies - using the jsx prop with the value "react-jsx" and added react peerDependencies
+
 ## 1.2.7
 
 ### Patch Changes

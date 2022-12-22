@@ -3,7 +3,7 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
 import type { CheckedState } from '@radix-ui/react-checkbox';
 import type { ComponentProps } from 'react';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import * as S from './styles';
 

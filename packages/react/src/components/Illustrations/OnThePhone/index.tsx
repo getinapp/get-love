@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { CelebratingNeutral } from './CelebratingNeutral';
 import { CelebratingPrimary } from './CelebratingPrimary';
 import { CelebratingSecondary } from './CelebratingSecondary';

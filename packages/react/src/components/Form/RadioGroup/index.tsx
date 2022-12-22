@@ -1,5 +1,5 @@
 import type { ComponentProps } from 'react';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import * as S from './styles';
 

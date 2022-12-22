@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Wrapper } from '../Illustrations/styles';
 
 export const Vegan = () => (

@@ -1,6 +1,6 @@
 import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
 import type { ComponentProps } from 'react';
-import React, { forwardRef } from 'react';
+import { forwardRef } from 'react';
 
 import * as S from './styles';
 
