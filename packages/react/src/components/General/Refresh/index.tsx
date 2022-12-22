@@ -1,5 +1,6 @@
 import CachedOutlinedIcon from '@mui/icons-material/CachedOutlined';
-import { ComponentProps } from 'react';
+import type { ComponentProps } from 'react';
+import React from 'react';
 
 import { Text } from '../../Typography/Text';
 import * as S from './styles';

@@ -1,4 +1,5 @@
-import { ComponentProps, useEffect, useRef, useState } from 'react';
+import type { ComponentProps } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 import type { Colors } from '../../../@types';
 import * as S from '../TextInput/styles';

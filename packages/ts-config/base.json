@@ -2,6 +2,7 @@
   "compilerOptions": {
     "composite": false,
     "declaration": true,
+    "declarationDir": "dist",
     "declarationMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -14,8 +15,9 @@
     "skipLibCheck": true,
     "strict": true,
     "lib": ["dom", "dom.iterable", "esnext"],
-    "target": "es5"
+    "target": "es5",
+    "outDir": "dist"
   },
   "include": ["./images.d.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["dist", "node_modules"]
 }

@@ -1,4 +1,5 @@
-import { ComponentProps, forwardRef } from 'react';
+import type { ComponentProps } from 'react';
+import React, { forwardRef } from 'react';
 
 import * as S from './styles';
 

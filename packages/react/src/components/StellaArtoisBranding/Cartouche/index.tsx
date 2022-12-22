@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { FullColorSmallUseOff } from './FullColorSmallUseOff';
 import { FullColorSmallUseOn } from './FullColorSmallUseOn';
 import { OutlinedSmallUseOff } from './OutlinedSmallUseOff';
