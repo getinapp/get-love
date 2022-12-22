@@ -1,6 +1,6 @@
 {
   "name": "@getlove/react",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Components built in react",
   "author": {
     "name": "maganezf",
@@ -9,10 +9,14 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**",
+    "public/**"
+  ],
   "license": "MIT",
   "scripts": {
-    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
-    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+    "build": "tsup src/index.ts --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --external react --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
   "devDependencies": {
@@ -42,9 +46,5 @@
     "@radix-ui/react-toggle-group": "^1.0.1",
     "@stitches/react": "^1.2.8",
     "react-imask": "^6.4.3"
-  },
-  "peerDependencies": {
-    "@mui/icons-material": "^5.10.15",
-    "@mui/material": "^5.10.15"
   }
 }

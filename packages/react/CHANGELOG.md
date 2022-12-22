@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.2.6
+
+### Patch Changes
+
+- build(react components package.json): origin field files added - trying to fix the react components build error when using the library
+
 ## 1.2.5
 
 ### Patch Changes
