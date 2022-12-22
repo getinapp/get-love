@@ -1,22 +1,33 @@
 # @getlove/react
 
+## 1.2.9
+
+### Patch Changes
+
+- build(js module bundler): rollup added - using rollup to do the JS module
+  bundler
+
 ## 1.2.8
 
 ### Patch Changes
 
-- build(tsconfig and components peerdependencies): jsx compilerOptions and react peerDependencies - using the jsx prop with the value "react-jsx" and added react peerDependencies
+- build(tsconfig and components peerdependencies): jsx compilerOptions and react
+  peerDependencies - using the jsx prop with the value "react-jsx" and added
+  react peerDependencies
 
 ## 1.2.7
 
 ### Patch Changes
 
-- build(tsconfig): jsx compilerOptions updated - using the jsx prop with the value "react"
+- build(tsconfig): jsx compilerOptions updated - using the jsx prop with the
+  value "react"
 
 ## 1.2.6
 
 ### Patch Changes
 
-- build(react components package.json): origin field files added - trying to fix the react components build error when using the library
+- build(react components package.json): origin field files added - trying to fix
+  the react components build error when using the library
 
 ## 1.2.5
 
@@ -34,7 +45,8 @@
 
 ### Patch Changes
 
-- fix(webpack.config.js): build loader - trying to fix the react build error that happens when using the components in any another repo
+- fix(webpack.config.js): build loader - trying to fix the react build error
+  that happens when using the components in any another repo
 
 ## 1.2.2
 
@@ -46,7 +58,8 @@
 
 ### Patch Changes
 
-- fix(cardoptions, radiogroup and buttonroundcheck): flow to selected value - onChange events are working perfectly
+- fix(cardoptions, radiogroup and buttonroundcheck): flow to selected value -
+  onChange events are working perfectly
 
 ## 1.2.0
 
