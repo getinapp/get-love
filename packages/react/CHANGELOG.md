@@ -1,5 +1,12 @@
 # @getlove/react
 
+## 1.3.0
+
+### Minor Changes
+
+- build(rollup): config updated - rollup config was improved for best bundle
+  minify
+
 ## 1.2.9
 
 ### Patch Changes

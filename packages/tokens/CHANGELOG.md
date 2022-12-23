@@ -1,5 +1,12 @@
 # @getlove/tokens
 
+## 1.2.0
+
+### Minor Changes
+
+- build(rollup): config updated - rollup config was improved for best bundle
+  minify
+
 ## 1.1.5
 
 ### Patch Changes
