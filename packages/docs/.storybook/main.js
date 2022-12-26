@@ -21,4 +21,15 @@ module.exports = {
     if (configType === 'PRODUCTION') config.base = '/get-love/';
     return config;
   },
+  previewHead: head => `
+    ${head}
+    <style>
+      <link rel="shortcut icon" href="/getin.png" />
+      <link rel="icon" type="image/png" href="/getin.png" />
+    </style>
+    <script>
+      window.global = window;
+      document.title = 'Get Love | Storybook | Design System';
+    </script>
+  `,
 };
