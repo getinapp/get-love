@@ -24,9 +24,9 @@ export const TokensGrid = ({ tokens, showPixelsValues }: TokensGridPros) => (
           </td>
           {showPixelsValues && (
             <td>
-              {value.includes('%')
+              {value.includes('%') || value.includes('px')
                 ? value
-                : Number(value.replace('rem', '')) * 10 + 'px'}
+                : `${Number(value.replace('rem', '')) * 10}px`}
             </td>
           )}
         </tr>
