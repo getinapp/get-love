@@ -1,5 +1,5 @@
 import { themes } from '@storybook/theming';
-import '../src/styles/global-styles.css';
+import '../src/styles/global-styles.css'; // Global styles to apply inside all stories
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
