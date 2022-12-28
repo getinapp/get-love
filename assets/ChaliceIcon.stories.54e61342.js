@@ -1,0 +1,2 @@
+import{l as o}from"./index.bb9109a2.js";import"./index.0233a3bf.js";import"./iframe.3aeafed1.js";import"./jsx-runtime.8acec0c4.js";import"./index.7b581bd4.js";import"./index.ac90594f.js";const s={title:"Components/StellaArtoisBranding/ChaliceIcon",component:o,parameters:{docs:{description:{component:"This is the StellaChaliceIcon component, it shows a Stella Chalice Icon."}}}},c={},m=["Primary"];export{c as Primary,m as __namedExportsOrder,s as default};
+//# sourceMappingURL=ChaliceIcon.stories.54e61342.js.map

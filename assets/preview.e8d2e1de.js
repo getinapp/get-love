@@ -1,0 +1,2 @@
+import{t as e}from"./index.8249c03d.js";import"./iframe.3aeafed1.js";import"./es.map.constructor.6ea1734e.js";import"./es.number.to-fixed.f3e91447.js";import"./index.0233a3bf.js";const s={actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/}},backgrounds:{values:[{name:"white",value:"#FFFFFF"},{name:"light",value:"#DEDBD3"},{name:"dark",value:"#333333"}]},docs:{theme:e.dark}};export{s as parameters};
+//# sourceMappingURL=preview.e8d2e1de.js.map

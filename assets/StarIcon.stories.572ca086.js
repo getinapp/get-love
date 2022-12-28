@@ -1,0 +1,2 @@
+import{m as t}from"./index.bb9109a2.js";import"./index.0233a3bf.js";import"./iframe.3aeafed1.js";import"./jsx-runtime.8acec0c4.js";import"./index.7b581bd4.js";import"./index.ac90594f.js";const s={title:"Components/StellaArtoisBranding/StarIcon",component:t,parameters:{docs:{description:{component:"This is the StellaStarIcon component, it shows a Stella Star Icon."}}}},m={},p=["Primary"];export{m as Primary,p as __namedExportsOrder,s as default};
+//# sourceMappingURL=StarIcon.stories.572ca086.js.map
