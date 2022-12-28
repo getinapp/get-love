@@ -71,10 +71,17 @@ $ yarn changeset
 $ yarn version-packages
 
 # This will run npm publish in each package that is of a later version than the one currently listed on npm
+# 🚨 - We don't need to use that script manually, because we already have a CI/CD to do it
 $ yarn release
 ```
 
 Go to <http://localhost:6006> to see the result.
+
+## :package: NPM Packages
+
+- [@getlove/eslint-config](https://www.npmjs.com/package/@getlove/eslint-config)
+- [@getlove/tokens](https://www.npmjs.com/package/@getlove/tokens)
+- [@getlove/react](https://www.npmjs.com/package/@getlove/react)
 
 ## :closed_book: License
 
