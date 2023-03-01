@@ -16,6 +16,7 @@ export const Button = styled('button', {
     cursor: 'not-allowed',
     backgroundColor: '$mono-high-dark',
     color: '$mono-high-light',
+    border: 'none',
   },
 
   '.loadingIcon': {
