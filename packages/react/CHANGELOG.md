@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.3.2
+
+### Patch Changes
+
+- style(button): fullWidth option added
+
 ## 1.3.1
 
 ### Patch Changes

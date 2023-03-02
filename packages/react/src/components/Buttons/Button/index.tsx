@@ -9,6 +9,7 @@ export type ButtonProps = ComponentProps<typeof S.Button> & {
   style: NonNullable<ButtonVariants['style']>;
   size: NonNullable<ButtonVariants['size']>;
   isLoading?: boolean;
+  fullWidth?: boolean;
   children: ReactNode;
 };
 

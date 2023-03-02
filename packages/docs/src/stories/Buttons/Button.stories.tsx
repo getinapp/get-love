@@ -32,6 +32,7 @@ export default {
     opacityOnHover: 'intense',
     disabled: false,
     isLoading: false,
+    fullWidth: false,
   },
   argTypes: {
     children: {
@@ -96,6 +97,12 @@ export const Loading: StoryObj<ButtonProps> = {
   args: {
     style: 'primary',
     isLoading: true,
+  },
+};
+export const FullWidth: StoryObj<ButtonProps> = {
+  args: {
+    style: 'primary',
+    fullWidth: true,
   },
 };
 

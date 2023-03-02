@@ -124,6 +124,11 @@ export const Button = styled('button', {
         },
       },
     },
+    fullWidth: {
+      true: {
+        width: '100%',
+      },
+    },
   },
 
   defaultVariants: {
