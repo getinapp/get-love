@@ -1,5 +1,11 @@
 # @getlove/react
 
+## 1.3.3
+
+### Patch Changes
+
+- style(refresh): cursor based on the state
+
 ## 1.3.2
 
 ### Patch Changes
