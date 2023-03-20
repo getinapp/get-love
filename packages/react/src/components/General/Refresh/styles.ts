@@ -6,6 +6,8 @@ export const Wrapper = styled('div', {
   alignItems: 'center',
   gap: '$xxs',
 
+  userSelect: 'none',
+
   'p, svg': {
     color: '$mono-low-light',
   },
@@ -17,16 +19,19 @@ export const Wrapper = styled('div', {
   variants: {
     state: {
       'not-loaded': {
+        cursor: 'default',
         'p, svg': {
           color: '$mono-low-pure',
         },
       },
       loading: {
+        cursor: 'wait',
         svg: {
           animation: `${rotateCenter} 1s infinite ease-in-out both`,
         },
       },
       loaded: {
+        cursor: 'default',
         svg: {
           animation: `${rotate90} .4s ease-in-out both`,
         },
