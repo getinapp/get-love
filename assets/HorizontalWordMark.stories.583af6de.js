@@ -1,0 +1,2 @@
+import{n as o}from"./index.be07e819.js";import"./index.f573d712.js";import"./iframe.b31183b6.js";import"./jsx-runtime.cfe796d2.js";import"./index.63a49b4d.js";import"./index.ac90594f.js";const s={title:"Components/StellaArtoisBranding/HorizontalWordMark",component:o,parameters:{docs:{description:{component:"This is the StellaHorizontalWordMark component, it shows a Stella Horizontal WordMark."}}}},m={},p=["Primary"];export{m as Primary,p as __namedExportsOrder,s as default};
+//# sourceMappingURL=HorizontalWordMark.stories.583af6de.js.map
